@@ -6,13 +6,13 @@ let myserver = myhttp.createServer(
 
     let mytext;
     if (myrequest.url === "/soup") {
-      mytext = "soup is tasty!";
+      mytext = "Soup is tasty!";
     }
     else if (myrequest.url === "/salad") {
-      mytext = "soup is better.";
+      mytext = "Soup is better.";
     }
     else if (myrequest.url === "/super-salad") {
-      mytext = "great choice!"
+      mytext = "Great choice!"
     }
     else {
       mytext = "Would you like soup or salad?"

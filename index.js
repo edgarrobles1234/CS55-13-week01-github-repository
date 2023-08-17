@@ -15,7 +15,7 @@ let myserver = myhttp.createServer(
       mytext = "great choice!"
     }
     else {
-      mytext = "would you like soup or salad?"
+      mytext = "Would you like soup or salad?"
     }
 
     myresponse.writeHead(200, { "Content-Type": "text/plain" });
